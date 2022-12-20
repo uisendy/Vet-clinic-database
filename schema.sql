@@ -71,3 +71,7 @@ create table visits (
 	FOREIGN KEY (animals_id) REFERENCES animals(id),
 	FOREIGN KEY (vets_id) REFERENCES vets(id)
 );
+
+
+ALTER TABLE visits 
+DROP CONSTRAINT visits_pkey
