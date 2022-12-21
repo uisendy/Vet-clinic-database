@@ -18,6 +18,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@sinieke](https://twitter.com/twitterhandle)
 - LinkedIn: [sendyinieke](https://www.linkedin.com/in/sendyinieke/)
 
+👤 **Kenny Egun**
+
+- GitHub: [@kennyegun24](https://github.com/kennyegun24)
+- Twitter: [@kenny_eLias](https://twitter.com/kenny_eLias)
+- LinkedIn: [sendyinieke](https://www.linkedin.com/in/linkediin/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
