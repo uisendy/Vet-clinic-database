@@ -223,3 +223,8 @@ join species on species.id = animals.species_id
 WHERE vets.name = 'Maisy Smith'
 GROUP BY animals_id, species.name
 ORDER BY COUNT(animals_id) DESC LIMIT 1
+
+-- Performance query
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
