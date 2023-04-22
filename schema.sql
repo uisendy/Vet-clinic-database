@@ -71,3 +71,22 @@ create table visits (
 	FOREIGN KEY (animals_id) REFERENCES animals(id),
 	FOREIGN KEY (vets_id) REFERENCES vets(id)
 );
+
+
+ALTER TABLE visits 
+DROP CONSTRAINT visits_pkey
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Performance Audit Indexing
+--for Visits Table
+CREATE INDEX visits_animal_id ON visits(animals_id);
+CREATE INDEX visits_vets_id ON visits(vets_id)
+CREATE INDEX owener_email ON owners(email)
+
+--for Owners Table
+
+
+
+
